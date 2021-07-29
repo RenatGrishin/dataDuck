@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
-@import "../../fonts/SF/stylesheet.css";
+@import "../fonts/SF/stylesheet.css";
 .center, .main-header {
   width: 1240px;
   margin: 0 auto;
@@ -57,7 +57,7 @@ h1 {
   border: 1px solid #fff;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../../img/user.svg");
+  background-image: url("../img/user.svg");
   background-repeat: no-repeat;
   background-size: 24px;
   background-position: left 17px top 7px;
@@ -92,7 +92,7 @@ h1 {
   color: #7A8F99;
   padding-left: 40px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url("../../img/check.png");
+  background-image: url("../img/check.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left 3px top 3px;
@@ -269,7 +269,7 @@ h1 {
 }
 .form__agreement input[type=checkbox]:checked + label::before {
   background-color: #232d3d;
-  background-image: url("../../img/check.png");
+  background-image: url("../img/check.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -283,7 +283,7 @@ h1 {
   padding: 8px 24px 8px 64px;
   border-radius: 4px;
   background-color: #E15433;
-  background-image: url("../../img/attention.png");
+  background-image: url("../img/attention.png");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: left 24px center;
