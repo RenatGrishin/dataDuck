@@ -16,11 +16,7 @@ body {
   background-color: #0e1729;
   color: #fff;
   font-family: "SF UI Display";
-  height: 100vh;
-}
-
-main {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 h1 {
@@ -80,7 +76,7 @@ h1 {
 }
 
 .info {
-  height: 100vh;
+  min-height: calc(100vh - 73px);
   position: relative;
   z-index: 200;
   width: 440px;

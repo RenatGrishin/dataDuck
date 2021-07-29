@@ -29,10 +29,7 @@ body{
   background-color: $colorDarkBlue;
   color: $colorWhite;
   font-family: "SF UI Display";
-  height: 100vh;
-}
-main{
-  height: 100vh;
+  min-height: 100vh;
 }
 h1{
   font-family: "Open Sans";
@@ -84,7 +81,7 @@ h1{
   @extend %tplWidthBlock;
 }
 .info{
-  height: 100vh;
+  min-height: calc(100vh - 73px);
   position: relative;
   z-index: 200;
   width: 440px;
