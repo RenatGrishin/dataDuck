@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>DataDuck (Renat Grishin)</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="main-header">
+    <a class="logo" href="#"><div></div></a>
+    <input type="submit" value="Войти">
+  </header>
+  <main>
+    <section class="main-block">
+      <div class="center">
+        <article class="info">
+          <h1>Начните тороговать  прямо сейчас</h1>
+          <ul class="info__conditions">
+            <li>Нет спреда — торгуйте с прозрачными и точными котировками</li>
+            <li>Достаточно депозита в $10, чтобы начать торговать</li>
+          </ul>
+          <form class="form">
+            <div class="form__custom-input">
+              <div class="error-message hide">
+                <p>Неверный пароль</p>
+                <div class="error-message__trep"></div>
+              </div>
+              <input id="email" type="email" required placeholder="Your e-mail">
+              <label for="email">Ваш e-mail</label>
+            </div>
+            <div class="form__custom-input">
+              <div class="error-message hide">
+                <p>Неверный пароль</p>
+                <div class="error-message__trep"></div>
+              </div>
+              <input id="password" type="password" required placeholder="Придумайте пароль">
+              <label for="password">Придумайте пароль</label>
+            </div>
+
+            <div class="form__currency">
+              <p>Валюта для ввода и вывода средств</p>
+              <input id="rub" type="radio" name="currency" value="Рубли" checked> <label for="rub">P</label>
+              <input id="dol" type="radio" name="currency" value="Доллары"> <label for="dol">S</label>
+              <input id="eu" type="radio" name="currency" value="Евро"> <label for="eu">E</label>
+            </div>
+
+            <div class="form__agreement">
+              <div class="error-message hide">
+                <p>Неверный пароль</p>
+                <div class="error-message__trep"></div>
+              </div>
+              <input id="agreement" type="checkbox" required>
+              <label for="agreement">Я совершеннолетний, ознакомился и принимаю соглашение об оказании услуг.</label>
+            </div>
+
+            <div class="section-errors sect-hide">
+              <p>Учётная запись с указанным e-mail уже существует</p>
+            </div>
+
+            <input class="form__registration-btn" type="submit" value="Зарегистрироваться">
+          </form>
+        </article>
+        <div class="mockups">
+          <img src="img/mac.png">
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

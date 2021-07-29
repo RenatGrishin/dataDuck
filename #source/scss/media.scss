@@ -1,0 +1,31 @@
+// Адаптация под экраны
+//1920
+@media screen and (min-width: 1240px){
+  %tplWidthBlock{
+    width: 1240px;
+    margin: 0 auto;
+  }
+}
+
+//1366
+@media screen and (max-width: 1239px){
+  %tplWidthBlock{
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+
+//320
+@media screen and (max-width: 490px) {
+  %tplWidthBlock{
+    min-width: 320px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .mockups{
+    display: none;
+  }
+  .info{
+    width: 100%;
+  }
+}
